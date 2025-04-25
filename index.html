@@ -1035,6 +1035,20 @@
             color: var(--gray);
         }
 
+        /* Update the footer logo styles */
+        .footer-about .footer-logo img {
+            height: 32px;  /* Reduced from default size */
+            width: auto;
+            margin-bottom: 1rem;
+        }
+
+        /* Add responsive adjustment if needed */
+        @media (max-width: 768px) {
+            .footer-about .footer-logo img {
+                height: 28px;  /* Even smaller on mobile */
+            }
+        }
+
         /* Media Queries */
         @media (max-width: 992px) {
             .features-grid {
@@ -1103,7 +1117,7 @@
         <div class="container">
             <div class="header-content">
                 <a href="#" class="logo">
-                    <img src="../assets/images/kiwa-credit-logo.png" alt="Kiwa Credit Logo">
+                    <img src="assets/images/kiwa-credit-logo.png.png" alt="Kiwa Credit Logo">
                 </a>
                 <div class="mobile-menu-toggle" id="menuToggle">
                     <i class="fas fa-bars"></i>
@@ -1495,7 +1509,7 @@
             <div class="footer-content">
                 <div class="footer-about">
                     <a href="#" class="footer-logo">
-                        <img src="../assets/images/kiwa-credit-logo-white.png" alt="Kiwa Credit Logo">
+                        <img src="assets/images/kiwa-credit-logo-white.png.png" alt="Kiwa Credit Logo">
                     </a>
                     <p>Kiwa Credit is a leading digital lender in Kenya, committed to providing fast, convenient, and affordable loans to all Kenyans.</p>
                     <div class="social-links">
